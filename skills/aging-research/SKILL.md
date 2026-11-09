@@ -12,7 +12,8 @@ AgingResearch.News reads new papers on aging and age-related disease every day, 
 | The user asks | Call |
 |---|---|
 | What the evidence says about a drug, supplement, diet, gene or process ("does rapamycin slow aging?") | `find_entities` to get the type and key if unsure, then `get_entity`. Its `evidence` is the structure of the evidence: the species reached (cells, worms or flies, mice, humans) and whether independent labs replicated it there, labs and countries, findings against, trials and those with no results posted, funders, company ties |
-| What is new this week, or new on a subject | `list_stories` (its checked stories), or `list_papers` for every new paper |
+| What is new across the field (today, this week) | `list_stories` with `since` (its checked stories), `list_news` for the field's events |
+| What is new on one subject | `list_papers` with `q` (2 to 4 key terms) and `since`, or `search_papers` for a longer window; `list_stories` has no subject filter |
 | About one paper | `search_papers` to find it, then `get_paper` with its AgingResearch.News id |
 | Specific findings, such as what extends lifespan in mice | `list_claims` |
 | Clinical trials | `list_trials` (filter by words, phase, status), then `get_trial` |
