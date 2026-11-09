@@ -1,0 +1,15 @@
+{
+  "name": "agingresearch-news-plugin",
+  "description": "AgingResearch.News for Claude: new research on aging, its evidence, trials and news.",
+  "owner": {
+    "name": "AgingResearch.News",
+    "url": "https://agingresearch.news"
+  },
+  "plugins": [
+    {
+      "name": "agingresearch-news",
+      "source": "./",
+      "description": "New research on aging and age-related disease, read and judged every day by AgingResearch.News: stories, evidence, trials, grants, news and your follows."
+    }
+  ]
+}

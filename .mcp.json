@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "agingresearch-news": {
+      "type": "http",
+      "url": "https://agingresearch.news/api/mcp"
+    }
+  }
+}

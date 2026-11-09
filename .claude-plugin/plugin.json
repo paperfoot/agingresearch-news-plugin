@@ -1,0 +1,20 @@
+{
+  "name": "agingresearch-news",
+  "version": "1.0.1",
+  "description": "New research on aging and age-related disease, read and judged every day by AgingResearch.News: stories on new papers, the evidence on a drug, gene or process, clinical trials, grants, news and your follows.",
+  "author": {
+    "name": "AgingResearch.News",
+    "url": "https://agingresearch.news"
+  },
+  "homepage": "https://agingresearch.news/connect",
+  "license": "MIT",
+  "keywords": [
+    "aging",
+    "longevity",
+    "geroscience",
+    "research",
+    "clinical-trials",
+    "papers",
+    "evidence"
+  ]
+}
