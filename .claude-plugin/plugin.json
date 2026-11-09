@@ -1,6 +1,7 @@
 {
   "name": "agingresearch-news",
-  "version": "1.1.0",
+  "displayName": "AgingResearch.News",
+  "version": "1.1.1",
   "description": "Every new paper on aging and longevity, read and judged as it lands by AgingResearch.News, in Claude: plain-language stories, the evidence on a drug, gene or process, clinical trials, grants and news, and your follows.",
   "author": {
     "name": "AgingResearch.News",
