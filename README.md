@@ -1,6 +1,6 @@
 # AgingResearch.News for Claude
 
-New research on aging and age-related disease, read and judged every day by [AgingResearch.News](https://agingresearch.news), in Claude chat, Cowork and Claude Code.
+Every new paper on aging and longevity, read and judged as it lands by [AgingResearch.News](https://agingresearch.news), in Claude chat, Cowork and Claude Code.
 
 AgingResearch.News reads the new papers on aging from bioRxiv, medRxiv, PubMed, arXiv and Europe PMC, judges each one for its link to aging, and writes short stories about the ones worth reading, each checked against its paper. This plugin connects Claude to its server and adds a skill that tells Claude which tool answers which question.
 
@@ -10,6 +10,14 @@ AgingResearch.News reads the new papers on aging from bioRxiv, medRxiv, PubMed, 
 - "Which senolytic trials are recruiting now?"
 - "What's new in aging research this week?"
 - "Follow taurine on AgingResearch.News and tell me what's new this week." (needs an AgingResearch.News account)
+
+## Commands
+
+- `/agingresearch-news:whats-new senolytics`: what's new this week on a subject, or across the field with no subject.
+- `/agingresearch-news:evidence rapamycin`: the evidence on a drug, supplement, gene or process, by species, independent replication, findings against, trials and funders.
+- `/agingresearch-news:trials sarcopenia`: trials for a condition, drug or target, recruiting and completed.
+
+In Claude chat, pick them from the `/` menu, or just ask: Claude applies the one that fits.
 
 ## Setup
 
@@ -26,6 +34,7 @@ The server is `https://agingresearch.news/api/mcp`. Setup for other assistants: 
 
 - `.mcp.json`: the AgingResearch.News MCP server.
 - `skills/aging-research/SKILL.md`: when to use each tool and how to describe evidence.
+- `commands/`: the three commands above.
 
 ## Privacy Policy
 

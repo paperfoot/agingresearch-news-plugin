@@ -1,6 +1,6 @@
 {
   "name": "agingresearch-news-plugin",
-  "description": "AgingResearch.News for Claude: new research on aging, its evidence, trials and news.",
+  "description": "AgingResearch.News for Claude: every new paper on aging and longevity, its evidence, trials and news.",
   "owner": {
     "name": "AgingResearch.News",
     "url": "https://agingresearch.news"
@@ -9,7 +9,7 @@
     {
       "name": "agingresearch-news",
       "source": "./",
-      "description": "New research on aging and age-related disease, read and judged every day by AgingResearch.News: stories, evidence, trials, grants, news and your follows."
+      "description": "Every new paper on aging and longevity, read and judged as it lands by AgingResearch.News, in Claude: plain-language stories, the evidence on a drug, gene or process, clinical trials, grants and news, and your follows."
     }
   ]
 }

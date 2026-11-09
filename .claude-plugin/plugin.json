@@ -1,20 +1,25 @@
 {
   "name": "agingresearch-news",
-  "version": "1.0.1",
-  "description": "New research on aging and age-related disease, read and judged every day by AgingResearch.News: stories on new papers, the evidence on a drug, gene or process, clinical trials, grants, news and your follows.",
+  "version": "1.1.0",
+  "description": "Every new paper on aging and longevity, read and judged as it lands by AgingResearch.News, in Claude: plain-language stories, the evidence on a drug, gene or process, clinical trials, grants and news, and your follows.",
   "author": {
     "name": "AgingResearch.News",
     "url": "https://agingresearch.news"
   },
   "homepage": "https://agingresearch.news/connect",
+  "privacyPolicyUrl": "https://agingresearch.news/privacy#assistants",
   "license": "MIT",
   "keywords": [
     "aging",
     "longevity",
     "geroscience",
     "research",
+    "biomarkers",
+    "epigenetic-clocks",
+    "senolytics",
     "clinical-trials",
     "papers",
     "evidence"
-  ]
+  ],
+  "icon": ".claude-plugin/icon.png"
 }
