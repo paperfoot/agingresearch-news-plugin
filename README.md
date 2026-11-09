@@ -26,7 +26,7 @@ In Claude Code:
     /plugin marketplace add paperfoot/agingresearch-news-plugin
     /plugin install agingresearch-news@agingresearch-news-plugin
 
-In Claude chat and Cowork, add it from the directory. The first time a tool needs your account, Claude asks you to sign in with AgingResearch.News (OAuth); public lookups work before that. Every connected app is listed in Settings, Agents & API on agingresearch.news, where Disconnect ends its access.
+In Claude chat and Cowork, add it from the directory. The first time a tool needs your account, Claude asks you to sign in with AgingResearch.News (OAuth); public lookups work before that. In Claude Code, run `/mcp`, choose agingresearch-news, then Authenticate; a free account gives 100 lookups a day. Every connected app is listed in Settings, Agents & API on agingresearch.news, where Disconnect ends its access.
 
 The server is `https://agingresearch.news/api/mcp`. Setup for other assistants: https://agingresearch.news/connect
 
